@@ -157,7 +157,7 @@ class ThermodynamicProfile(BaseModel):
 
   gc_distribution: GCDistribution
 
-  hs_hairpin: Annotated[
+  has_hairpin: Annotated[
     bool, 
     Field(description="Whether self complementary structure detected")
   ]
